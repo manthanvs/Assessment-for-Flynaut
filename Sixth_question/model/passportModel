@@ -1,0 +1,12 @@
+var mongoose = require("mongoose");
+
+const token = mongoose.Schema([
+	{
+        username:String,
+        password: String
+	},
+]);
+
+const passport = mongoose.model("passport", token);
+
+module.exports = passport;
