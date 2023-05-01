@@ -17,9 +17,11 @@ const FunctionalComponent=()=>{
                 setState({"text":"I've been clicked right now"})
             }}>Click me</button>
             <p>{text}</p>
-			<h1>---------------------</h1>
+			<h1>*****************</h1>
 			{loading?(<h2>Component is loading...</h2>):(<h2>Component is Done loading </h2>)}
 			{/* here Ternary Operator is been Used */}
+			<h1>*****************</h1>
+
 		</div>
 	)
 }

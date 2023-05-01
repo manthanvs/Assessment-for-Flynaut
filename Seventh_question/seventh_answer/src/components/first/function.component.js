@@ -12,6 +12,9 @@ const FunctionalComponent=()=>{
 			<h3>Counter App using Functional Component : </h3>
 		<h2>{count}</h2>
 			<button onClick={increase}>Add</button>
+			<div>
+			<a href="#reference">Scroll to Hello div</a>
+			</div>
 		</div>
 	)
 }
