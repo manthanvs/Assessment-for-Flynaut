@@ -3,7 +3,7 @@ import ClassComponent from './components/first/class.component';
 
 import Usinghooks from './components/second/usinghooks.component.js';
 
-// import UsinghooksExamples from './components/third/UsinghooksExamples.component.js';
+import UsinghooksExamples from './components/third/UsinghooksExamples.component.js';
 
 
 function App() {
@@ -14,8 +14,8 @@ function App() {
       <ClassComponent />
       <h1>-------------</h1>
       <Usinghooks/>
-      {/* <h1>-------------</h1>
-      <UsinghooksExamples/> */}
+      <h1>-------------</h1>
+      <UsinghooksExamples/>
     </div>
   );
 }
